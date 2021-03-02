@@ -1,5 +1,6 @@
-PATH
-  remote: ../solidus_graphql_api
+GIT
+  remote: https://github.com/countermotif/solidus_graphql_api.git
+  revision: d772705c20942eadf178e4211486b4cdab372d7b
   specs:
     solidus_graphql_api (0.1.0)
       batch-loader (>= 1.4.1, < 1.6.0)
@@ -192,7 +193,7 @@ GEM
       activerecord (>= 4.0.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    graphql (1.11.7)
+    graphql (1.11.8)
     handlebars_assets (0.23.8)
       execjs (~> 2.0)
       sprockets (>= 2.0.0)
