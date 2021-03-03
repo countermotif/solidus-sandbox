@@ -238,7 +238,6 @@ GEM
     mimemagic (0.3.5)
     mini_magick (4.11.0)
     mini_mime (1.0.2)
-    mini_portile2 (2.5.0)
     minitest (5.14.4)
     monetize (1.10.0)
       money (~> 6.12)
@@ -246,8 +245,7 @@ GEM
       i18n (>= 0.6.4, <= 2)
     msgpack (1.4.2)
     nio4r (2.5.5)
-    nokogiri (1.11.1)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     paperclip (6.1.0)
@@ -375,7 +373,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-18
 
 DEPENDENCIES
   awesome_print
@@ -399,7 +397,7 @@ DEPENDENCIES
   web-console (>= 4.1.0)
 
 RUBY VERSION
-   ruby 2.6.6p146
+   ruby 2.6.3p62
 
 BUNDLED WITH
-   1.17.3
+   2.2.7
