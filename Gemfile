@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
-gem 'solidus_graphql_api'
+gem 'solidus_graphql_api', github: 'countermotif/solidus_graphql_api'
 gem 'awesome_print'
 gem 'thin'
 
